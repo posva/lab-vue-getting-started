@@ -1,7 +1,4 @@
 #!/bin/bash
 
-echo "🤖 Ready?"
-pwd
-ls
-sleep 5
-echo "TECHIO> open --static-dir /project/target /index.html"
+echo "🚀 Let's go!"
+echo "TECHIO> open --static-dir /project/target /$1.html"

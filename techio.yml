@@ -10,6 +10,6 @@ plan:
 
 # Settings for your programming projects and the associated Docker images
 projects:
-  vue:
+  vue-simple:
     root: /vue-simple # Set the root path to your react project
     runner: node:latest
