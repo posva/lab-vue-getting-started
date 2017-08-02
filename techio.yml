@@ -10,10 +10,6 @@ plan:
 
 # Settings for your programming projects and the associated Docker images
 projects:
-  react:
-    root: /react-project # Set the root path to your react project
-    buildCommand: yarn install
-    runner: node:latest
   vue:
     root: /vue-simple # Set the root path to your react project
     runner: node:latest
