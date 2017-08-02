@@ -6,7 +6,9 @@ The source code for this template is on [GitHub](https://github.com/TechDotIO/re
 
 # Hands-on Demo
 
-@[Sample Vue app]({"project": "vue-simple", "stubs": ["index.html", "script.js"], "command": "./run.sh hello-world"})
+@[Sample Vue app]({"project": "vue-simple", "stubs": ["hello-world/index.html", "hello-world/index.js"], "command": "./run.sh hello-world"})
+
+@[Sample Vue app]({"project": "vue-simple", "stubs": ["filters/index.html", "filters/index.js"], "command": "./run.sh filters"})
 
 Check out the markdown file [`welcome.md`](https://github.com/TechDotIO/react-template/blob/master/markdowns/welcome.md) to see how this exercise is injected into the template.
 
