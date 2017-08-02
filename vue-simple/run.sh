@@ -7,7 +7,8 @@ if [ -s debug.sh ]; then
     echo '--- end of debug.sh ---'
 fi
 echo "TECHIO> open 5000 --static-dir /project/target/$1 /index.html"
-./node_modules/.bin/serve -p 5000 &
+
+./node_modules/.bin/serve -p 5000 "$1" &
 SPID="$!"
 sleep 1
 
