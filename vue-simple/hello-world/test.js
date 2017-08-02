@@ -10,13 +10,12 @@ window.onload = () => {
   window.mocha.ui('bdd')
 
   const emptyNodes = document.querySelectorAll('nonexistant')
-  const app = document.querySelector('#app')
   window.$$ = function $$ (selector) {
     const els = document.querySelectorAll(selector)
-    const innerEls = app.querySelectorAll(selector)
+    const innerEls = app.$el.querySelectorAll(selector)
     const fn = innerEls.length
             ? el => innerEls.find(el)
-            : el => app === el
+            : el => app.$el === el
     const found = Array.from(els).filter(fn)
     return found.length
       ? found
@@ -25,10 +24,10 @@ window.onload = () => {
 
   window.$ = function $ (selector) {
     const els = document.querySelectorAll(selector)
-    const innerEl = app.querySelector(selector)
+    const innerEl = app.$el.querySelector(selector)
     const fn = innerEl
             ? el => el === innerEl
-            : el => el === app
+            : el => el === app.$el
     // Allow should chaining for tests
     return Array.from(els).find(fn) || emptyNodes
   }
@@ -39,7 +38,7 @@ window.onload = () => {
     })
 
     it('has a custom name property', () => {
-      window.should(app.name).exist()
+      should.exist(app.name)
     })
 
     it('says "Hi ___"', () => {
@@ -47,5 +46,7 @@ window.onload = () => {
     })
   })
 
-  window.mocha.run()
+  app.$nextTick(() => {
+    window.mocha.run()
+  })
 }
