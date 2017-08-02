@@ -37,6 +37,14 @@ window.onload = () => {
     it('display Hello Vue', () => {
       $('p').should.have.text('Hello Vue')
     })
+
+    it('has a custom name property', () => {
+      should(app.name).exist()
+    })
+
+    it('says "Hi ___"', () => {
+      app.$el.should.contain.text('Hi ' + app.name)
+    })
   })
 
   window.mocha.run()
