@@ -6,6 +6,7 @@
   "license": "MIT",
   "devDependencies": {
     "codeceptjs": "^1.0.0",
-    "codeceptjs-nightmare": "^1.1.0"
+    "codeceptjs-nightmare": "^1.1.0",
+    "serve": "^6.0.5"
   }
 }
