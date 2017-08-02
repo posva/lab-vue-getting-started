@@ -13,3 +13,6 @@ projects:
   vue-simple:
     root: /vue-simple # Set the root path to your react project
     runner: node:latest
+  vue-webpack:
+    root: /vue-webpack # Set the root path to your react project
+    runner: node:latest
