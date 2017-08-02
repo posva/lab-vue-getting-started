@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "🚀 Let's go with $1!"
-if [ ! -s debug.sh ]; then
+if [ -s debug.sh ]; then
     echo '--- 🐛 sourcing debug.sh ---'
     source debug.sh
     echo '--- end of debug.sh ---'
