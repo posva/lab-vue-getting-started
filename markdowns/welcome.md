@@ -8,7 +8,7 @@ The source code for this template is on [GitHub](https://github.com/TechDotIO/re
 
 @[Hello Vue]({"project": "vue-simple", "stubs": ["hello-world/index.html", "hello-world/index.js", "debug.sh"], "command": "./run.sh hello-world"})
 
-@[Filters]({"project": "vue-simple", "stubs": ["filters/index.html", "filters/index.js"], "command": "./run.sh filters"})
+@[Filters]({"project": "vue-simple", "stubs": ["filters/index.html", "filters/index.js", "debug.sh"], "command": "./run.sh filters"})
 
 Check out the markdown file [`welcome.md`](https://github.com/TechDotIO/react-template/blob/master/markdowns/welcome.md) to see how this exercise is injected into the template.
 
