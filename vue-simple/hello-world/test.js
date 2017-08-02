@@ -39,7 +39,7 @@ window.onload = () => {
     })
 
     it('has a custom name property', () => {
-      should(app.name).exist()
+      window.should(app.name).exist()
     })
 
     it('says "Hi ___"', () => {
