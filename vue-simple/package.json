@@ -1,0 +1,11 @@
+{
+  "name": "vue-simple",
+  "private": true,
+  "version": "1.0.0",
+  "main": "test.js",
+  "license": "MIT",
+  "devDependencies": {
+    "codeceptjs": "^1.0.0",
+    "codeceptjs-nightmare": "^1.1.0"
+  }
+}
