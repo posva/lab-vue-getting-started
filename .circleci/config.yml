@@ -21,7 +21,6 @@ jobs:
     steps:
       - checkout
 
-      - run:
-          - pwd
-          - git remote add techio git@ssh.git.tech.io:cg157436/playground-pzjv7cxf.git
-          - git push techio master
+      - run: pwd
+      - run: git remote add techio git@ssh.git.tech.io:cg157436/playground-pzjv7cxf.git
+      - run: git push techio master
