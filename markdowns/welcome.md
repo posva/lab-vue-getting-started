@@ -10,3 +10,5 @@ WIP filters
 
 @[Filters]({"project": "vue-simple", "stubs": ["filters/index.html", "filters/index.js", "debug.sh"], "command": "./run.sh filters"})
 
+
+Testing out builds with CircleCI
