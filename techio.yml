@@ -12,7 +12,7 @@ plan:
 projects:
   vue-simple:
     root: /vue-simple # Set the root path to your react project
-    buildCommand: yarn
+    buildCommand: npm -v && node -v && npm i
     runner: selenium/node-chrome:latest
   vue-webpack:
     root: /vue-webpack # Set the root path to your react project
