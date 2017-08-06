@@ -26,7 +26,7 @@ After theses courses, you will:
 Instead of displaying `Hello Vue`, display the current time like this: 
 `The current time is 09:00`
 
-@[Display Time]({"project": "vue-simple", "stubs": ["1-display-dates/index.html", "1-display-dates/index.js", "1-display-dates/hint1.md"], "command": "./open.sh 1-display-dates"})
+@[Display Time]({"project": "vue-simple", "stubs": ["1-display-dates/index.html", "1-display-dates/index.js", "1-display-dates/hint1.md"], "command": "./run.sh 1-display-dates -s"})
 
 ### Exercice 2
 
@@ -39,7 +39,7 @@ Add the following lifecyle hooks in the _index.js_ file and display the value of
 - `updated` 
 - `destroyed` 
 
-@[Display Time]({"project": "vue-simple", "stubs": ["1-lifecycle/index.html", "1-lifecycle/index.js", "1-lifecycle/hint1.md", ], "command": "./open.sh 1-lifecycle"})
+@[Display Time]({"project": "vue-simple", "stubs": ["1-lifecycle/index.html", "1-lifecycle/index.js", "1-lifecycle/hint1.md", ], "command": "./run.sh 1-lifecycle -s"})
 
 
 ### Exercice 3
@@ -48,7 +48,7 @@ Tutorial: [Template Syntax](https://vuejs.org/v2/guide/syntax.html)
 
 Adapt _index.html_ to display the waited answer. For the 3 last ones (`sentence1`, `sentence2`, `sentence3`), you will need to change `filters` in _index.js_.
 
-@[Template syntax]({"project": "vue-simple", "stubs": ["1-basic-template-syntax/index.html", "1-basic-template-syntax/index.js", "1-basic-template-syntax/style.css", "1-basic-template-syntax/hint1.md", "1-basic-template-syntax/hint2.md"], "command": "./open.sh 1-basic-template-syntax"})
+@[Template syntax]({"project": "vue-simple", "stubs": ["1-basic-template-syntax/index.html", "1-basic-template-syntax/index.js", "1-basic-template-syntax/style.css", "1-basic-template-syntax/hint1.md", "1-basic-template-syntax/hint2.md"], "command": "./run.sh 1-basic-template-syntax -s"})
 
 
 (Work in progress)
