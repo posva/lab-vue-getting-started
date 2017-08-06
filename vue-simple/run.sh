@@ -2,7 +2,6 @@
 
 # Put "-s" as a second parameter to simply run without tests
 if  [[ $2 = "-s" ]]; then
-    echo "Option -s turned on"
     echo "TECHIO> open -s /project/target/$1 index.html"
 else
     echo "🚀 Let's go with $1!"
