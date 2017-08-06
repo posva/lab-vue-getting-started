@@ -6,14 +6,14 @@ plan:
     statement: markdowns/welcome.md # Set the file path to the page content
   - title: Day 1
     statement: markdowns/day1.md
-  # - title: Day 2
-  #   statement: markdowns/day2.md
-  # - title: Day 3
-  #   statement: markdowns/day3.md
-  # - title: Day 4
-  #   statement: markdowns/day4.md
-  # - title: Day 5
-  #   statement: markdowns/day5.md
+  - title: Day 2
+    statement: markdowns/day2.md
+  - title: Day 3
+    statement: markdowns/day3.md
+  - title: Day 4
+    statement: markdowns/day4.md
+  - title: Day 5
+    statement: markdowns/day5.md
 
 
 # Settings for your programming projects and the associated Docker images

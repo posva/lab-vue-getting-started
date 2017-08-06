@@ -2,10 +2,10 @@
 
 ## Resources
 
-- [Introduction](https://vuejs.org/v2/guide/index.html)
-- [The Vue Instance](https://vuejs.org/v2/guide/instance.html)
-- [Template Syntax](https://vuejs.org/v2/guide/syntax.html)
-- [Computed Properties and Watchers](https://vuejs.org/v2/guide/computed.html)
+- Vue.js: [Introduction](https://vuejs.org/v2/guide/index.html)
+- Vue.js: [The Vue Instance](https://vuejs.org/v2/guide/instance.html)
+- Vue.js: [Template Syntax](https://vuejs.org/v2/guide/syntax.html)
+- Vue.js: [Computed Properties and Watchers](https://vuejs.org/v2/guide/computed.html)
 
 
 
