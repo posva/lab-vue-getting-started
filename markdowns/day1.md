@@ -23,7 +23,7 @@ After theses courses, you will:
 Instead of displaying `Hello Vue`, display the current time like this: 
 `The current time is 09:00`
 
-@[Display Time]({"project": "vue-simple", "stubs": ["day1/display-dates/index.html", "day1/display-dates/index.js"], "command": "./run.sh day1/display-dates"})
+@[Display Time]({"project": "vue-simple", "stubs": ["1-display-dates/index.html", "1-display-dates/index.js", "1-display-dates/hint1.md"], "command": "./run.sh 1-display-dates"})
 
 
 (Work in progress)
