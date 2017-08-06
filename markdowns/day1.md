@@ -51,4 +51,9 @@ Adapt _index.html_ to display the waited answer. For the 3 last ones (`sentence1
 @[Template syntax]({"project": "vue-simple", "stubs": ["1-basic-template-syntax/index.html", "1-basic-template-syntax/index.js", "1-basic-template-syntax/style.css", "1-basic-template-syntax/hint1.md", "1-basic-template-syntax/hint2.md"], "command": "./run.sh 1-basic-template-syntax -s"})
 
 
+### Exercice 4
+
+Tutorial: [Computed Properties and Watchers](https://vuejs.org/v2/guide/computed.html)
+
+
 (Work in progress)
