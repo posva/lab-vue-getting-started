@@ -25,5 +25,15 @@ Instead of displaying `Hello Vue`, display the current time like this:
 
 @[Display Time]({"project": "vue-simple", "stubs": ["1-display-dates/index.html", "1-display-dates/index.js", "1-display-dates/hint1.md"], "command": "./run.sh 1-display-dates"})
 
+### Exercice 2
+Add the following lifecyle hooks and display the value of `number` in the console to see what happens:
+- `created` 
+- `mounted` 
+- `beforeUpdate` 
+- `updated` 
+- `destroyed` 
+
+@[Display Time]({"project": "vue-simple", "stubs": ["1-lifecycle/index.html", "1-lifecycle/index.js", "1-lifecycle/hint1.md"], "command": "./run.sh 1-lifecycle"})
+
 
 (Work in progress)
