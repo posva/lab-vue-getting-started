@@ -30,7 +30,7 @@ Instead of displaying `Hello Vue`, display the current time like this:
 
 ### Exercice 2
 
-Source: [Instance-Lifecycle-Hooks](https://vuejs.org/v2/guide/instance.html#Instance-Lifecycle-Hooks)
+Tutorial: [Instance-Lifecycle-Hooks](https://vuejs.org/v2/guide/instance.html#Instance-Lifecycle-Hooks)
 
 Add the following lifecyle hooks in the _index.js_ file and display the value of `number` in the console to see what happens:
 - `created` 
@@ -44,9 +44,9 @@ Add the following lifecyle hooks in the _index.js_ file and display the value of
 
 ### Exercice 3
 
-Source: [Template Syntax](https://vuejs.org/v2/guide/syntax.html)
+Tutorial: [Template Syntax](https://vuejs.org/v2/guide/syntax.html)
 
-Adapt _index.html_ to display the waited answer. The the 3 last ones, you will need to change `filters` in _index.js_.
+Adapt _index.html_ to display the waited answer. For the 3 last ones (`sentence1`, `sentence2`, `sentence3`), you will need to change `filters` in _index.js_.
 
 @[Template syntax]({"project": "vue-simple", "stubs": ["1-basic-template-syntax/index.html", "1-basic-template-syntax/index.js", "1-basic-template-syntax/style.css", "1-basic-template-syntax/hint1.md", "1-basic-template-syntax/hint2.md"], "command": "./run.sh 1-basic-template-syntax"})
 
