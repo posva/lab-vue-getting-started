@@ -9,7 +9,17 @@ delete webpackConfig.plugins
 
 module.exports = config => {
   config.set({
-    browsers: ['Chrome'],
+    browsers: ['Chrome_no_sandbox'],
+    customLaunchers: {
+      Chrome_no_sandbox: {
+        base: 'Chrome',
+        flags: [
+          '--no-sandbox',
+          // '--headless',
+          // '--disable-gpu',
+        ]
+      }
+    },
     frameworks: ['mocha', 'chai-dom', 'sinon-chai'],
     reporters: ['spec'],
     files: [
