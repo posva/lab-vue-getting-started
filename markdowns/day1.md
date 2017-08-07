@@ -23,12 +23,18 @@ After theses courses, you will:
 ## Exercices
 
 ### Exercice 1
+Instead of displaying `Hello Vue`, display `Hola Ironhack` just by changing the _index.js_ file. 
+
+@[Display Time]({"project": "vue-simple", "stubs": ["hello-world/index.html", "hello-world/index.js"], "command": "./run.sh hello-world -s"})
+
+
+### Exercice 2
 Instead of displaying `Hello Vue`, display the current time like this: 
-`The current time is 09:00`
+`The current time is 09:42` (if the hour is _09:42_). Don't worry if the time is not dynamically updating.
 
 @[Display Time]({"project": "vue-simple", "stubs": ["1-display-dates/index.html", "1-display-dates/index.js", "1-display-dates/hint1.md"], "command": "./run.sh 1-display-dates -s"})
 
-### Exercice 2
+### Exercice 3
 
 Tutorial: [Instance-Lifecycle-Hooks](https://vuejs.org/v2/guide/instance.html#Instance-Lifecycle-Hooks)
 
@@ -42,7 +48,7 @@ Add the following lifecyle hooks in the _index.js_ file and display the value of
 @[Display Time]({"project": "vue-simple", "stubs": ["1-lifecycle/index.html", "1-lifecycle/index.js", "1-lifecycle/hint1.md", ], "command": "./run.sh 1-lifecycle -s"})
 
 
-### Exercice 3
+### Exercice 4
 
 Tutorial: [Template Syntax](https://vuejs.org/v2/guide/syntax.html)
 
